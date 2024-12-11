@@ -1,0 +1,12 @@
+version: 2
+
+# Перечисляем таблицы, которые можем импользовать, как источники
+sources:
+- name: imdb
+  tables:
+  - name: directors
+  - name: actors
+  - name: roles
+  - name: movies
+  - name: genres
+  - name: movie_directors
